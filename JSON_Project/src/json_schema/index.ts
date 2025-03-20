@@ -1,6 +1,8 @@
 // imports
 import Ajv from 'ajv';
 import tsj from "ts-json-schema-generator";
+import { writeFile } from "fs/promises"; //usado para escribir archivos JSON porque Bun.write no funciona
+// solucion encontrada aqui: https://github.com/oven-sh/bun/issues/12374
 
 /*
 * Quiero mostrar las ciudades del pais basco "Euskal Herria"
@@ -55,10 +57,11 @@ const configuration = {
     tsconfig: "./tsconfig.json",
     type:"*"
 }
-const outputPath = "finalSchema.json";
+const outputPath = "./finalSchema.json";
 const schema = tsj.createGenerator(configuration).createSchema(configuration.type);
 const schString = JSON.stringify(schema,null,2);
-await Bun.write(outputPath, schString);
+// await Bun.write(outputPath, schString); // no funciona
+await writeFile(outputPath, schString);
 
 
 /*
