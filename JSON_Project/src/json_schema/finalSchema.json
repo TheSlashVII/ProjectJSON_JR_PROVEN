@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/city",
+  "definitions": {
+    "city": {
+      "type": "object",
+      "properties": {
+        "documentName": {
+          "type": "string"
+        },
+        "locality": {
+          "type": "string"
+        },
+        "territory": {
+          "type": "string"
+        },
+        "municipality": {
+          "type": "string"
+        },
+        "municipalitycode": {
+          "type": "string"
+        },
+        "territorycode": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "documentName",
+        "locality",
+        "territory",
+        "municipality",
+        "municipalitycode",
+        "territorycode"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

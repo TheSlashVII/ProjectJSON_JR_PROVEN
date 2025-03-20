@@ -1,0 +1,260 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "documentName": {
+        "type": "string"
+      },
+      "documentDescription": {
+        "type": "string"
+      },
+      "templateType": {
+        "type": "string"
+      },
+      "locality": {
+        "type": "string"
+      },
+      "qualityQ": {
+        "type": "string"
+      },
+      "qualityIconURL": {
+        "type": "string"
+      },
+      "qualityIconDescription": {
+        "type": "string"
+      },
+      "accesibility": {
+        "type": "string"
+      },
+      "accesibilityIconURL": {
+        "type": "string"
+      },
+      "accesibilityIconDescription": {
+        "type": "string"
+      },
+      "phone": {
+        "type": "string"
+      },
+      "address": {
+        "type": "string"
+      },
+      "marks": {
+        "type": "string"
+      },
+      "profile": {
+        "type": "string"
+      },
+      "physical": {
+        "type": "string"
+      },
+      "visual": {
+        "type": "string"
+      },
+      "auditive": {
+        "type": "string"
+      },
+      "intellectual": {
+        "type": "string"
+      },
+      "organic": {
+        "type": "string"
+      },
+      "qualityAssurance": {
+        "type": "string"
+      },
+      "tourismEmail": {
+        "type": "string"
+      },
+      "web": {
+        "type": "string"
+      },
+      "importance": {
+        "type": "string"
+      },
+      "room": {
+        "type": "string"
+      },
+      "productClub": {
+        "type": "string"
+      },
+      "visit": {
+        "type": "string"
+      },
+      "store": {
+        "type": "string"
+      },
+      "gastronomical": {
+        "type": "string"
+      },
+      "surfing": {
+        "type": "string"
+      },
+      "postalCode": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string"
+      },
+      "duration": {
+        "type": "string"
+      },
+      "transportType": {
+        "type": "string"
+      },
+      "routeInitPoint": {
+        "type": "string"
+      },
+      "water": {
+        "type": "string"
+      },
+      "landscape": {
+        "type": "string"
+      },
+      "cuisine": {
+        "type": "string"
+      },
+      "culture": {
+        "type": "string"
+      },
+      "couple": {
+        "type": "string"
+      },
+      "children": {
+        "type": "string"
+      },
+      "friends": {
+        "type": "string"
+      },
+      "searchable": {
+        "type": "string"
+      },
+      "languages": {
+        "type": "string"
+      },
+      "basque100": {
+        "type": "string"
+      },
+      "latitudelongitude": {
+        "type": "string"
+      },
+      "latwgs84": {
+        "type": "string"
+      },
+      "lonwgs84": {
+        "type": "string"
+      },
+      "placename": {
+        "type": "string"
+      },
+      "municipality": {
+        "type": "string"
+      },
+      "municipalitycode": {
+        "type": "string"
+      },
+      "postalcode": {
+        "type": "string"
+      },
+      "territory": {
+        "type": "string"
+      },
+      "territorycode": {
+        "type": "string"
+      },
+      "country": {
+        "type": "string"
+      },
+      "countrycode": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string"
+      },
+      "webpage": {
+        "type": "string"
+      },
+      "friendlyUrl": {
+        "type": "string"
+      },
+      "physicalUrl": {
+        "type": "string"
+      },
+      "dataXML": {
+        "type": "string"
+      },
+      "metadataXML": {
+        "type": "string"
+      },
+      "zipFile": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "documentName",
+      "documentDescription",
+      "templateType",
+      "locality",
+      "qualityQ",
+      "qualityIconURL",
+      "qualityIconDescription",
+      "accesibility",
+      "accesibilityIconURL",
+      "accesibilityIconDescription",
+      "phone",
+      "address",
+      "marks",
+      "profile",
+      "physical",
+      "visual",
+      "auditive",
+      "intellectual",
+      "organic",
+      "qualityAssurance",
+      "tourismEmail",
+      "web",
+      "importance",
+      "room",
+      "productClub",
+      "visit",
+      "store",
+      "gastronomical",
+      "surfing",
+      "postalCode",
+      "type",
+      "duration",
+      "transportType",
+      "routeInitPoint",
+      "water",
+      "landscape",
+      "cuisine",
+      "culture",
+      "couple",
+      "children",
+      "friends",
+      "searchable",
+      "languages",
+      "basque100",
+      "latitudelongitude",
+      "latwgs84",
+      "lonwgs84",
+      "placename",
+      "municipality",
+      "municipalitycode",
+      "postalcode",
+      "territory",
+      "territorycode",
+      "country",
+      "countrycode",
+      "email",
+      "webpage",
+      "friendlyUrl",
+      "physicalUrl",
+      "dataXML",
+      "metadataXML",
+      "zipFile"
+    ]
+  }
+}
