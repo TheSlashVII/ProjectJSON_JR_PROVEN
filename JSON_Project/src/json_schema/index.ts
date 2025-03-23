@@ -46,7 +46,7 @@ const Bilbao:city = {
 const parsedCity : city = JSON.parse(JSON.stringify(Bilbao));
 console.log(parsedCity);
 if (!validateCity(Bilbao)) {
-    console.log("Invalid city name");
+    console.log("Invalid city");
 } else {
     console.log("valid city")
 }
